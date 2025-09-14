@@ -5,6 +5,7 @@ This guide will help you set up the project locally and deploy it to production.
 Run the following commands to clone the repository and navigate to the project folder:
 git clone https://github.com/Arafat-shuvo/jiggasa.git
 cd jiggasa
+
 2. Backend Setup (Server)
 Follow the steps below to set up the backend server:
 Step 1: Navigate to the server folder
@@ -13,7 +14,8 @@ Step 2: Install dependencies
 npm install
 Step 3: Create .env file
 Create a `.env` file inside the `server` directory and add the following content:
-MONGODB_URI=mongodb+srv://u25:u25@cluster0.urljx0d.mongodb.net/uproject?retryWrites=true&w=majorityGEMINI_API_KEY=AIzaSyAehPiSlaGCrxeAZmTXbv_IORCEFLWTGoM
+MONGODB_URI=mongodb+srv://u25:u25@cluster0.urljx0d.mongodb.net/uproject?retryWrites=true&w=majority
+GEMINI_API_KEY=AIzaSyAehPiSlaGCrxeAZmTXbv_IORCEFLWTGoM
 PORT=5000
 CLOUDINARY_CLOUD_NAME=dgrcovlju
 CLOUDINARY_API_KEY=621137513697598
@@ -23,7 +25,7 @@ Development Mode (with auto restart using nodemon):
 npm run dev
 Production Mode:
 npm start
-3. Frontend Setup (React + Tailwind CSS)
+4. Frontend Setup (React + Tailwind CSS)
 Follow the steps below to set up the frontend React application:
 Step 1: Navigate to the frontend folder
 cd frontend
